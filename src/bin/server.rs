@@ -1,8 +1,8 @@
 use tonic::transport::Server;
 
-use grpc::server::v1::{
-    greeter::proto::say_hello_service_server::SayHelloServiceServer,
-    greeter::say_hello::SayHelloImpl
+use grpc::greeter::{
+    proto::say_hello_service_server::SayHelloServiceServer,
+    v1::say_hello::server::SayHelloImpl
 };
 
 #[tokio::main]

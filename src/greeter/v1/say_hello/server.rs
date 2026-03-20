@@ -1,6 +1,6 @@
 use tonic::{Request, Response, Status};
 
-use super::proto::{
+use crate::greeter::proto::{
     say_hello_service_server::SayHelloService,
     SayHelloRequest,
     SayHelloResponse
