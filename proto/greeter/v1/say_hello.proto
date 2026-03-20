@@ -1,8 +1,9 @@
 syntax = "proto3";
+package greeter.v1;
 
-package helloworld;
+option deprecated = false;
 
-service GreeterService {
+service SayHelloService {
   rpc SayHello(SayHelloRequest) returns (SayHelloResponse);
 }
 
