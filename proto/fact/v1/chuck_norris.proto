@@ -1,0 +1,16 @@
+syntax = "proto3";
+package fact.v1;
+
+option deprecated = false;
+
+service FactService {
+  rpc GetFact(GetFactRequest) returns (GetFactResponse);
+}
+
+message GetFactRequest {
+  int32 delay = 1;
+}
+
+message GetFactResponse {
+  string response = 1;
+}
