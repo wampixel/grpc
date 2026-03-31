@@ -1,6 +1,8 @@
 {
     "recommendations": [
         "bufbuild.vscode-buf",
-        "rust-lang.rust-analyzer"
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "shardulm94.trailing-spaces"
     ]
 }
